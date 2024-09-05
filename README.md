@@ -7,5 +7,5 @@
 
 
 |분류|함수|설명|
-|:---|:----:|:----:|
-|[Array]()|[chunk]()|`chunk(array:array,size:number)`함수는 인자로 받은 array를 size만큼 잘라서 중첩 배열로 리턴합니다.|
+|:---|:----:|:----|
+|[Array](https://github.com/Pyotato/Pyodash/tree/main/Array)|[chunk](https://github.com/Pyotato/Pyodash/tree/main/Array/chunk)|`chunk(array:array,size:number)`함수는 인자로 받은 array를 size만큼 잘라서 중첩 배열로 리턴합니다.|
