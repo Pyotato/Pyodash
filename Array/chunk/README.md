@@ -2,7 +2,9 @@
 
 ## About
 
-> [chunk](https://lodash.com/docs/4.17.15#chunk): Creates an array of elements split into groups the length of size. If array can't be split evenly, the final chunk will be the remaining elements.
+> [lodash chunk](https://lodash.com/docs/4.17.15#chunk)
+> Creates an array of elements split into groups the length of size. <br/>
+> If array can't be split evenly, the final chunk will be the remaining elements.
 
 ## Test
 
