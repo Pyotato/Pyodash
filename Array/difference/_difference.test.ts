@@ -55,7 +55,7 @@ test(`8. Arrays with Objects (Objects are Compared by Reference, Not Value): _.d
   console.timeLog('8. _.difference:Arrays with Objects (Objects are Compared by Reference, Not Value)');
 });
 
-test(`9. _.difference Between Arrays with Duplicates: _.difference([1, 2, 2, 3], [2])은 [1, 3]이다.`, () => {
+test(`9. Between Arrays with Duplicates: _.difference([1, 2, 2, 3], [2])은 [1, 3]이다.`, () => {
   const expected = [1, 3];
   console.time('9. _.difference: _.difference Between Arrays with Duplicates');
   expect(difference([1, 2, 2, 3], [2])).toEqual(expected);

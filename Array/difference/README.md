@@ -36,37 +36,48 @@
 
 ## Test
 
-1. concatenating Arrays:
+1. Basic Example with Numbers
 
-   Input: concat([1], [2], [3, 4])
-   Output: [1, 2, 3, 4]
+   Input: difference([2, 1], [2, 3])
+   Output: [1]
 
-2. concatenating Values to an Array
+2. No Common Elements
 
-   Input: concat([1, 2], 3, 4)
-   Output: [1, 2, 3, 4]
+   Input: difference([1, 2, 3], [4, 5, 6])
+   Output: [1]
 
-3. concatenating with an Empty Array
+3. All Elements in First Array Are in Second Array
 
-   Input: concat([], 1, 2, [3, 4])
-   Output: [1, 2, 3, 4]
+   Input: difference([1, 2, 3], [1, 2, 3])
+   Output: []
 
-4. concatenating Arrays with Different Types
+4. First Array is Empty
 
-   Input: concat([1, 'a'], null, undefined, [5])
-   Output: [1, 'a', null, undefined, 5]
+   Input: difference([], [1, 2, 3])
+   Output: []
 
-5. concatenating Nested Arrays (lodash.concat doesn't flatten arrays)
+5. Second Array is Empty
 
-   Input: concat([1, [2]], [3, [4]])
-   Output: [1, [2], 3, [4]]
+   Input: difference([1, 2, 3], [])
+   Output: [1, 2, 3]
 
-6. concatenating an Array with No Additional Values
+6. Arrays with Mixed Data Types
 
-   Input: concat([1, 2, 3])
-   Output:[1, 2, 3]
+   Input: difference([1, 'a', true], [1, 'b', false])
+   Output:['a', true]
 
-7. concatenating Multiple Values of the Same Type
+7. Multiple Arrays (Difference with More than One Array)
+   Input: difference([1, 2, 3, 4], [2, 3], [4, 5])
+   Output: [1]
 
-   Input: concat([10], 20, 30, 40)
-   Output: [10, 20, 30, 40]
+8. Arrays with Objects (Objects are Compared by Reference, Not Value)
+   Input: difference([1, 'a', true], [1, 'b', false])
+   Output: ['a', true]
+
+9. Between Arrays with Duplicates
+   Input: difference([1, 2, 2, 3], [2])
+   Output: [1, 3]
+
+10. Using undefined and nulls
+    Input: difference([undefined, null, 1], [null, 2])
+    Output: [undefined, 1]
