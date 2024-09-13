@@ -59,5 +59,12 @@ test(`8. Using String as Iteratee for String Representation : _.differenceBy([1,
 });
 
 /**
-
+  1. _.differenceBy: Basic Example with Numbers Using Math.floor: 0.657ms
+  2. _.differenceBy: Using a Property Name as the Iteratee (Objects): 0.144ms
+  3. _.differenceBy: Using a Custom Iteratee Function: 0.083ms
+  4. _.differenceBy: Empty First Array: 0.025ms
+  5. _.differenceBy: Empty Second Array: 0.105ms
+  6. _.differenceBy: Difference with null and undefined Using Identity: 0.039ms
+  7. _.differenceBy: Custom Iteratee on Complex Objects: 0.036ms
+  8. _.differenceBy: Using String as Iteratee for String Representation: 0.026ms
  */

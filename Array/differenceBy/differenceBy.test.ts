@@ -59,12 +59,12 @@ test(`8. Using String as Iteratee for String Representation : differenceBy([1, '
 });
 
 /**
-  1. difference: Basic Example with Numbers:: 0.511ms
-  2. difference: No Common Elements: 0.034ms
-  3. difference: All Elements in First Array Are in Second Array: 0.022ms
-  4. difference: First Array is Empty: 0.02ms
-  5. difference: Second Array is Empty: 0.098ms
-  6. difference: rrays with Mixed Data Types: 0.028ms
-  7. difference:Multiple Arrays (Difference with More than One Array): 0.019ms
-  9. difference: Difference Between Arrays with Duplicates: 0.107ms
+  1. differenceBy: Basic Example with Numbers Using Math.floor: 0.472ms
+  2. differenceBy: Using a Property Name as the Iteratee (Objects): 0.091ms
+  3. differenceBy: Using a Custom Iteratee Function: 0.035ms
+  4. differenceBy: Empty First Array: 0.02ms
+  5. differenceBy: Empty Second Array: 0.1ms
+  6. differenceBy: Difference with null and undefined Using Identity: 0.03ms
+  7. differenceBy: Custom Iteratee on Complex Objects: 0.025ms
+  8. differenceBy: Using String as Iteratee for String Representation: 0.018ms
  */
