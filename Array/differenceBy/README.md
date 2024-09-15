@@ -2,7 +2,7 @@
 
 ## About
 
-> [lodash difference](https://lodash.com/docs/4.17.15#differenceBy) <br/>
+> [lodash differenceBy](https://lodash.com/docs/4.17.15#differenceBy) <br/>
 > This method is like _.difference except that it accepts iteratee which is invoked for each element of array and values to generate the criterion by which they're compared. The order and references of result values are determined by the first array. The iteratee is invoked with one argument:
 > (value).. <br/>
 > Note: Unlike `_.pullAllBy`, this method returns a new array.
