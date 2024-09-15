@@ -1,5 +1,5 @@
 export type Many<T> = T | readonly T[];
-export type Args = string | number | null | undefined;
+export type Args = string | number | null | undefined | boolean;
 
 const concat: (...args: Array<Many<Args | Args[]>>) => Array<any> = (...args) => {
   const copy = [...args];
