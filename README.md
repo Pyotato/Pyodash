@@ -16,6 +16,7 @@
 |   [differenceBy](https://github.com/Pyotato/Pyodash/tree/main/Array/differenceBy)   | `differenceBy(baseArr,...args)`함수는 두번째 인자부터 마지막 인자 전까지의 인자들 `args`의 값들을, 마지막 인자 `iteratee`로 비교기준을 적용하여 `baseArr`값들을 필터해서 새로운 배열을 리턴합니다. |
 | [differenceWith](https://github.com/Pyotato/Pyodash/tree/main/Array/differenceWith) |                                                                                                                                                                                                    |
 |           [drop](https://github.com/Pyotato/Pyodash/tree/main/Array/drop)           | `differenceBy(arr,n=1)`함수는 `arr`배열의 첫 인덱스에서부터 n까지의 요소를 제거한 배열을 리턴합니다.                                                                                               |
+|           [fill](https://github.com/Pyotato/Pyodash/tree/main/Array/fill)           | `fill(arr,value,start=0,end=arr.length)`함수는 `arr`배열의 start 인덱스에서부터 end까지의 요소를 value로 대체하여 리턴합니다.                                                                      |
 
 ## Lang
 
