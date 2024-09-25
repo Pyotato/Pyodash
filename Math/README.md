@@ -5,8 +5,9 @@
 > 🧪 테스트: vitest
 > 🐥 타입스크립트
 
-|                               함수                               | 설명                                                                                                                                    |
-| :--------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------- |
-|   [add](https://github.com/Pyotato/Pyodash/tree/main/Math/add)   | `chunk(array:array,size:number)`함수는 인자로 받은 array를 size만큼 잘라서 중첩 배열로 리턴합니다.                                      |
-|  [ceil](https://github.com/Pyotato/Pyodash/tree/main/Math/ceil)  | `ceil(arg:number,precision?:number)`함수는 인자로 받은 arg를 precision만큼 반올림합니다.                                                |
-| [divide](https://github.com/Pyotato/Pyodash/tree/main/Math/ceil) | `divide(dividend: number, divisor: number)`함수는 첫번째 인자로 받은 숫자 dividend를 두번째 인자로 받은 divisor로 나눈 값을 리턴합니다. |
+|                               함수                               | 설명                                                                                                                                                                                                     |
+| :--------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   [add](https://github.com/Pyotato/Pyodash/tree/main/Math/add)   | `chunk(array:array,size:number)`함수는 인자로 받은 array를 size만큼 잘라서 중첩 배열로 리턴합니다.                                                                                                       |
+|  [ceil](https://github.com/Pyotato/Pyodash/tree/main/Math/ceil)  | `ceil(arg:number,precision?:number)`함수는 인자로 받은 arg를 precision만큼 반올림합니다.                                                                                                                 |
+| [divide](https://github.com/Pyotato/Pyodash/tree/main/Math/ceil) | `divide(dividend: number, divisor: number)`함수는 첫번째 인자로 받은 숫자 dividend를 두번째 인자로 받은 divisor로 나눈 값을 리턴합니다.                                                                  |
+| [floor](https://github.com/Pyotato/Pyodash/tree/main/Math/floor) | `floor(num: number, precision?: number)`함수는 첫번째 인자로 받은 숫자 num를 두번째 인자로 받은 precision 아래의 자릿수(0부터 20까지만)는 버리고 리턴합니다. precision을 넘기지 않으면 디폴트로 0입니다. |
