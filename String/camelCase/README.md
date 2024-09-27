@@ -55,3 +55,7 @@
 12. CamelCase for String with Leading or Trailing Delimiters (Edge cases)
 
     Input: \_.camelCase('--foo-bar--')<br/> Output: fooBar
+
+13. CamelCase for Special Characters only (Edge cases)
+
+    Input: \_.camelCase("@#$!!")<br/> Output: "" (Empty string)

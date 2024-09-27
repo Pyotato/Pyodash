@@ -68,6 +68,11 @@ testWithTimeLog(
 
   expect(camelCase('--foo-bar--')).toBe('fooBar')
 );
+
+testWithTimeLog(
+  '13. [camelCase] CamelCase for Special Characters only (Edge cases) : camelCase("@#$!!")는 ""다.',
+  expect(camelCase('@#$!!')).toBe('')
+);
 /**
   1. [camelCase] CamelCase for Regular Sentence : camelCase("Hello World")는 "helloWorld"다.: 0.04ms
   2. [camelCase] CamelCase for Hyphenated Words : camelCase("foo-bar-baz")는 "fooBarBaz"다.: 0.002ms
@@ -81,4 +86,5 @@ testWithTimeLog(
   10. [camelCase] CamelCase for String with Special Characters (Edge cases) : camelCase("hello$world")는 "helloWorld"다.: 0.002ms
   11. [camelCase] CamelCase for String with Multiple Spaces (Edge cases) : camelCase(" hello world ")는 "helloWorld"다.: 0.001ms
   12. [camelCase] CamelCase for String with Leading or Trailing Delimiters (Edge cases) : camelCase("--foo-bar--")는 "fooBar"다.: 0.001ms
+  13. [camelCase] CamelCase for Special Characters only (Edge cases) : camelCase("@#$!!")는 ""다.: 0ms
  */
