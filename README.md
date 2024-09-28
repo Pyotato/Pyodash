@@ -39,6 +39,7 @@
 
 ## String
 
-|                                    함수                                    | 설명                                                                                                                       |
-| :------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------- |
-| [camelCase](https://github.com/Pyotato/Pyodash/tree/main/String/camelCase) | `camelCase(str:string)`함수는 인자로 받은 string을 camel case(시작은 소문자, 각 string 토큰의 시작은 대문자)로 리턴합니다. |
+|                                     함수                                     | 설명                                                                                                                       |
+| :--------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------- |
+|  [camelCase](https://github.com/Pyotato/Pyodash/tree/main/String/camelCase)  | `camelCase(str:string)`함수는 인자로 받은 string을 camel case(시작은 소문자, 각 string 토큰의 시작은 대문자)로 리턴합니다. |
+| [capitalize](https://github.com/Pyotato/Pyodash/tree/main/String/capitalize) | `capitalize(str:string)`함수는 인자로 받은 string을 첫자만 대문자로 변환하고 나머지는 소문자로 변환하여 리턴합니다.        |
